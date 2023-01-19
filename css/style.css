@@ -1,27 +1,48 @@
 body {
-    background-color: coral;
+
     padding: 10px;
 }
+
+.container {
+    width: 100%;
+    background-color: coral;
+    border: 2px solid black;
+}
+
 h1 {
     color: green;
     text-align: center;
 }
+
 h3 {
     color: greenyellow;
     text-align: center;
 }
+
 p {
     font-style: italic;
-    color: aliceblue;
+    color: rgb(13, 52, 85);
     text-align: justify;
 }
+
 #autor {
     text-align: right;
-  
+
 }
-img {
-    width: 180px;
-    position: absolute;
-    right: 10px;
-    top: 10px;
+
+.first {
+    margin: 10px;
+
+    width: 15%;
+
+    float: right;
+
+}
+
+.second {
+    margin: 10px;
+
+    width: 15%;
+
+    float: left;
 }
